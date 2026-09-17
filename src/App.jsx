@@ -10,7 +10,7 @@ export default function App() {
   };
 
   const handleWhatsAppDireto = () => {
-    const mensagem = encodeURIComponent("vim pelo site e gostaria de saber mais informações referentes ao processo");
+    const mensagem = encodeURIComponent("Olá! Vim pelo site e gostaria de saber mais informações sobre os serviços e agendamentos.");
     window.open(`https://wa.me/5511996901041?text=${mensagem}`, '_blank');
   };
 
@@ -94,11 +94,11 @@ export default function App() {
 
       {/* 1. HEADER MODERNO */}
       <header className="fixed top-4 left-0 right-0 z-40 px-4">
-        <nav className="max-w-6xl mx-auto bg-zinc-900/80 backdrop-blur-2xl border border-white/10 rounded-full px-7 py-4 flex items-center justify-between shadow-[0_10px_40px_rgba(0,0,0,0.7)]">
-          <div className="flex items-center gap-3">
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-200 animate-pulse shadow-[0_0_12px_#fde047]"></span>
-            <span className="text-amber-100 font-light tracking-[0.1em] text-sm sm:text-base uppercase flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2">
-              Mirai <span className="text-amber-200/90 font-light text-[10px] sm:text-sm tracking-wide lowercase">Cabelo & Estética</span>
+        <nav className="max-w-6xl mx-auto bg-zinc-900/80 backdrop-blur-2xl border border-white/10 rounded-full px-5 sm:px-7 py-3.5 flex items-center justify-between shadow-[0_10px_40px_rgba(0,0,0,0.7)]">
+          <div className="flex items-center gap-2.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-200 animate-pulse shadow-[0_0_12px_#fde047] flex-shrink-0"></span>
+            <span className="text-amber-100 font-light tracking-[0.1em] text-xs sm:text-base uppercase flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2 leading-tight">
+              Mirai <span className="text-amber-200/90 font-light text-[9px] sm:text-sm tracking-wide lowercase">Cabelo & Estética</span>
             </span>
           </div>
           
@@ -110,7 +110,7 @@ export default function App() {
 
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="relative overflow-hidden group px-7 py-3 rounded-full bg-gradient-to-r from-amber-200/20 via-amber-400/30 to-amber-200/20 border border-amber-200/40 text-xs font-medium tracking-wider uppercase text-amber-100 shadow-[0_0_25px_rgba(253,230,138,0.3)] hover:shadow-[0_0_35px_rgba(253,230,138,0.5)] transition-all duration-300 cursor-pointer"
+            className="relative overflow-hidden group px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-amber-200/20 via-amber-400/30 to-amber-200/20 border border-amber-200/40 text-[11px] sm:text-xs font-medium tracking-wider uppercase text-amber-100 shadow-[0_0_25px_rgba(253,230,138,0.3)] hover:shadow-[0_0_35px_rgba(253,230,138,0.5)] transition-all duration-300 cursor-pointer flex-shrink-0"
           >
             <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></span>
             <span className="relative z-10">Agendar</span>
@@ -356,6 +356,7 @@ export default function App() {
                   className="group relative h-80 rounded-[28px] overflow-hidden border border-white/10 shadow-2xl bg-zinc-900"
                 >
                   <img 
+                    src5={item.img} 
                     src={item.img} 
                     alt={item.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 grayscale-[15%] group-hover:grayscale-0"
