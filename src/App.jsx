@@ -44,7 +44,7 @@ export default function App() {
         </a>
       </div>
 
-      {/* LUZES DE AMBIENTAÇÃO SOFISTICADAS */}
+      {/* LUZES DE AMBIENTAÇÃO SOFISTICADAS (DOURADAS ORIGINAIS) */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-b from-amber-600/15 via-amber-900/5 to-transparent blur-[160px] pointer-events-none z-0"></div>
       <div className="absolute top-[35%] left-[-10%] w-[600px] h-[600px] bg-rose-950/20 blur-[180px] pointer-events-none z-0"></div>
       <div className="absolute bottom-[20%] right-[-10%] w-[600px] h-[600px] bg-amber-950/20 blur-[180px] pointer-events-none z-0"></div>
