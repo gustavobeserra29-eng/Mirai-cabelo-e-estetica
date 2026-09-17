@@ -95,9 +95,13 @@ export default function App() {
       {/* 1. HEADER MODERNO */}
       <header className="fixed top-4 left-0 right-0 z-40 px-4">
         <nav className="max-w-6xl mx-auto bg-zinc-900/80 backdrop-blur-2xl border border-white/10 rounded-full px-5 sm:px-7 py-3.5 flex items-center justify-between shadow-[0_10px_40px_rgba(0,0,0,0.7)]">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-200 animate-pulse shadow-[0_0_12px_#fde047] flex-shrink-0"></span>
-            <span className="text-amber-100 font-light tracking-[0.1em] text-xs sm:text-base uppercase flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2 leading-tight">
+          <div className="flex items-center gap-3">
+            <img 
+              src="/logo-mirai.png" 
+              alt="Logo Mirai" 
+              className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-cover border border-amber-200/30 shadow-md flex-shrink-0" 
+            />
+            <span className="text-amber-100 font-light tracking-[0.1em] text-sm sm:text-base uppercase flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2 leading-tight">
               Mirai <span className="text-amber-200/90 font-light text-[9px] sm:text-sm tracking-wide lowercase">Cabelo & Estética</span>
             </span>
           </div>
@@ -356,7 +360,6 @@ export default function App() {
                   className="group relative h-80 rounded-[28px] overflow-hidden border border-white/10 shadow-2xl bg-zinc-900"
                 >
                   <img 
-                    src5={item.img} 
                     src={item.img} 
                     alt={item.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 grayscale-[15%] group-hover:grayscale-0"
