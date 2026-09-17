@@ -219,7 +219,7 @@ export default function App() {
                 </div>
 
                 <div className="p-5 rounded-[24px] bg-zinc-900/80 backdrop-blur-xl border border-amber-200/20 text-center shadow-lg group hover:border-amber-200/50 transition-all">
-                  <span className="block text-2xl lg:text-3xl font-light text-amber-200 mb-1 group-hover:scale-105 transition-transform">4.9 ★</span>
+                  <span className="block text-2xl lg:text-3xl font-light text-amber-200 mb-1 group-hover:scale-105 transition-transform">5.0 ★</span>
                   <span className="text-[10px] uppercase tracking-wider text-zinc-400 font-medium">Avaliação Média</span>
                 </div>
               </div>
