@@ -99,7 +99,7 @@ export default function App() {
             <img 
               src="/logo-mirai.png" 
               alt="Logo Mirai" 
-              className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-cover border border-amber-200/30 shadow-md flex-shrink-0" 
+              className="h-8 sm:h-9 w-auto object-contain flex-shrink-0" 
             />
             <span className="text-amber-100 font-light tracking-[0.1em] text-sm sm:text-base uppercase flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-2 leading-tight">
               Mirai <span className="text-amber-200/90 font-light text-[9px] sm:text-sm tracking-wide lowercase">Cabelo & Estética</span>
